@@ -1,0 +1,61 @@
+body {
+  background-color: #8ca68d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 0.5em;
+  height: 60vmin;
+  width: 60vmin;
+}
+
+.box {
+  display: flex;
+  background-color: #d7f4c6;
+  border: 2px solid rgb(7, 0, 0);
+  border-radius: 10%;
+  font-size: xx-large;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 0, 0);
+}
+
+#new-Game {
+  background-color: black;
+  color: aliceblue;
+  height: fit-content;
+  width: fit-content;
+  margin-top: 50%;
+}
+#msg {
+  display: none;
+  color: #030449;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: xx-large;
+  font-weight: bold;
+}
+.button {
+  display: flex;
+  margin-top: 2%;
+  flex-direction: row;
+  column-gap: 20%;
+}
+#newgame {
+  background-color: black;
+  color: rgb(241, 244, 247);
+  border-radius: 25%;
+}
